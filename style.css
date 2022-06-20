@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.countdown-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.countdown {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-family: monospace;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 3rem;
+    margin-left: 9vh;
+    margin-right: 9vh;
+
+
+}
+
+.vince {
+    max-width: 50vh;
+    padding: 3vh 0vh 3vh 0vh;
+}
+
+#time-passed {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.video-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
